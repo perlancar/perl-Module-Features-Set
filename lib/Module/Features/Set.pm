@@ -40,6 +40,8 @@ _
         speed                                    => {summary => 'Subjective speed rating, relative to other set modules', schema=>['str', in=>[qw/slow medium fast/]], tags=>['category:speed']},
 
         memory_overhead                          => {summary => 'Subjective memory overhead rating, relative to other set modules', schema=>['str', in=>[qw/low medium high/]], tags=>['category:memory_overhead']},
+
+        features                                 => {summary => 'Subjective feature richness/completeness rating, relative to other set modules', schema=>['str', in=>[qw/few medium many/]], tags=>['category:features']},
     },
 );
 
