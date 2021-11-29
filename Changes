@@ -1,18 +1,15 @@
-0.003   2021-02-26  Released-By: PERLANCAR; Urgency: low
+0.003   2021-11-29  Released-By: PERLANCAR; Urgency: medium
 
-        - No functional changes.
+        - Fix Abstract.
 
-        - [build] Rebuild with Dist::Zilla plugin [Module::Features].
-
-
-0.002   2021-02-25  Released-By: PERLANCAR; Urgency: low
-
-        - No functional changes.
-
-        - [build] Rebuild with Pod::Weaver plugin [Module::Features] to render
-          information into POD pages.
+        - Add feature: can_compare_sets.
 
 
-0.001   2021-02-25  Released-By: PERLANCAR
+0.002   2021-05-13  Released-By: PERLANCAR; Urgency: medium
 
-        - First release.
+	- Add feature: features.
+
+
+0.001   2021-05-13  Released-By: PERLANCAR
+
+        - First, early release.
