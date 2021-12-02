@@ -34,7 +34,7 @@ our %FEATURES_DEF = (
 );
 
 1;
-# ABSTRACT: Features of modules that handle set data structure
+# ABSTRACT:
 
 =head1 SEE ALSO
 
