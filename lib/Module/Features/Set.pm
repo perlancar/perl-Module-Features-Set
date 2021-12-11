@@ -1,13 +1,13 @@
 package Module::Features::Set;
 
+use 5.010001;
+use strict;
+use warnings;
+
 # AUTHORITY
 # DATE
 # DIST
 # VERSION
-
-use 5.010001;
-use strict;
-use warnings;
 
 our %FEATURES_DEF = (
     v => 1,
@@ -36,6 +36,7 @@ _
         can_intersect_sets                       => {summary => 'Provide a way for user to perform intersection operation of two or more sets', tags=>['category:interset-operation']},
         can_difference_sets                      => {summary => 'Provide a way for user to perform difference operation of two or more sets (values in first set not in the rest)', tags=>['category:interset-operation']},
         can_symmetric_difference_sets            => {summary => 'Provide a way for user to perform symmetric difference operation of two or more sets (values that are only in exactly one set)', tags=>['category:interset-operation']},
+        can_compare_sets                         => {summary => 'Provide a way for user to check the equality of two sets', tags=>['category:sets']},
 
         speed                                    => {summary => 'Subjective speed rating, relative to other set modules', schema=>['str', in=>[qw/slow medium fast/]], tags=>['category:speed']},
 
@@ -46,7 +47,7 @@ _
 );
 
 1;
-# ABSTRACT: Features of modules that generate text tables
+# ABSTRACT:
 
 =head1 SEE ALSO
 
